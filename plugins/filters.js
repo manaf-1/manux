@@ -175,7 +175,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if(Config.AUTOSTICKER){
     let banned = jid.find( Jid => Jid === message.jid);
     if(banned !== undefined) return
-    if (!!message.mention && message.mention[0] == '919544846609@s.whatsapp.net') {
+    if (!!message.mention && message.mention[0] == '917560891210@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/mention.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
 const array = ['Alone','avan','Bot','Da','Di','Enthada','friends','Jihad','Life','love','lub','M','Mm','Myr','Myre','Nice','Ningal','Njan','Owner','Para','Please','Poda','pro','Sathyam','Thep','Umm','umma','venda','xxx','edit']
