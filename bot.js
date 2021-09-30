@@ -1,7 +1,7 @@
 /* Copyright (C) 2020 JIHAD.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-WhatsAsena - elsamwol
+WhatsAsena - manux
 */
 
 const fs = require("fs");
@@ -88,7 +88,7 @@ async function whatsAsena () {
 
         const authInfo = conn.base64EncodedAuthInfo();
         if (StrSes_Db.length < 1) {
-            await WhatsAsenaDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
+        await WhatsAsenaDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
         } else {
             await StrSes_Db[0].update({ value: Session.createStringSession(authInfo) });
         }
@@ -100,8 +100,8 @@ ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
     });
     
-
-    conn.on('open', async () => {
+    
+        conn.on('open', async () => {
         console.log(
             chalk.green.bold('✅ Login successful!')
         );
@@ -109,7 +109,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         console.log(
             chalk.blueBright.italic('🤸 Installing external plugins...')
         );
-
+        
         var plugins = await plugindb.PluginDB.findAll();
         plugins.map(async (plugin) => {
             if (!fs.existsSync('./plugins/' + plugin.dataValues.name + '.js')) {
@@ -133,7 +133,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('ElsaMwol working! 🕺')
+            chalk.green.bold('manux working! 🕺')
         );
     });
     
@@ -146,7 +146,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         if (config.NO_ONLINE) {
             await conn.updatePresence(msg.key.remoteJid, Presence.unavailable);
         }
-
+        
         if (config.GIFORPP == 'pp' || config.GIFORPP == 'Pp' || config.GIFORPP == 'PP' || config.GIFORPP == 'pP' ) {
     if (msg.messageStubType === 32 || msg.messageStubType === 28) {
             // Görüşürüz Mesajı
@@ -189,7 +189,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
             return;
         }
      }
-
+     
         events.commands.map(
             async (command) =>  {
                 if (msg.message && msg.message.imageMessage && msg.message.imageMessage.caption) {
@@ -216,7 +216,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
 
                     let sendMsg = false;
                     var chat = conn.chats.get(msg.key.remoteJid)
-                        
+                    
                     if ((config.SUDO !== false && msg.key.fromMe === false && command.fromMe === true &&
                         (msg.participant && config.SUDO.includes(',') ? config.SUDO.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == config.SUDO || config.SUDO.includes(',') ? config.SUDO.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == config.SUDO)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
@@ -250,7 +250,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'TR' || config.LANG == 'AZ') {
-                                await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [ElsaMwol V2] --' + 
+                                await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [manux V2] --' + 
                                     '\n*WhatsAsena bir hata gerçekleşti!*'+
                                     '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
                                     '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
@@ -258,7 +258,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '💝______```ElsaMwol V2```_____💝' +
+                                await conn.sendMessage(conn.user.jid, '💝______```manux V2```_____💝' +
                                     '\n\n*🙍 ' + error + '*\n'
                                     , MessageType.text);
                             }
@@ -268,7 +268,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
             }
         )
     });
-
+    
     try {
         await conn.connect();
     } catch {
@@ -285,3 +285,49 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
 }
 
 whatsAsena();
+
+
+
+
+
+      
+
+
+
+  
+    
+    
+    
+    
+    
+
+    
+    
+    
+        
+
+        
+
+
+     
+
+        
+
+               
+                        
+                  
+            
+           
+ 
+
+        
+
+       
+            
+           
+           
+              
+           
+                
+          
+  
