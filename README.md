@@ -1,21 +1,21 @@
 <div align="center">
   <img border-radius: 15px src="https://www.linkpicture.com/q/IMG-20210708-WA0035.jpg" width="200" height="200"/>
   
- [![Typing SVG](https://readme-typing-svg.h+WA+Bot+repo;Created+by+manaf+1;This+is+the+Best++Bgm+bot;With+more+features)]
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+manux+WA+Bot+repo;Created+by+manaf-1;This+is+the+Best++Bgm+bot;With+more+features)]
 
 
 <p align="center">
     
-<a href="#"><img title="manux"
- src=""></a>https://www.linkpicture.com/q/IMG-20210708-WA0035.jpg
+<a href="#"><img title="munux"
+ src="https://www.linkpicture.com/q/IMG-20210708-WA0035.jpg"></a>
  </p>
   <p align="center">
-<a href="https://wa.me/917560891210"><img title="Author" src="https://img.shields.io/badge/Author-manaf-Ser/Elsa%20Mowl?color=Blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://wa.me/917560891210"><img title="Author" src="https://img.shields.io/badge/Author-manaf-1/manu%20x?color=Blue&style=for-the-badge&logo=whatsapp"></a>
  </p>
  
 ## Subscriber My Channel More Updates Coming Soon..
  
-![20210613_095153](https://www.linkpicture.com/q/IMG-20210708-WA0035.jpg) 
+![20210613_095153](https://user-images.githubusercontent.com/85656190/125904681-fc8f3ca0-3c3d-4bd1-b852-6036a7efd8e4.jpg) 
 
  ##
 https://youtube.com/channel/UCoVXfHoPIXU6nRb0l7msQrQ
@@ -29,7 +29,7 @@ Click WA logo to Join Support Group 👇
   
   
 
-# Elsa Mwol WhatsApp Bot 
+# manux WhatsApp Bot 
 
 # Setup
 <div align="center">
@@ -81,7 +81,8 @@ By establishing the Userbot, you are deemed to have accepted these responsibilit
 
 
 
-Project created by JIHAD to make it public
+Project created by manaf-1 to make it public
 
 © Reserved
- 
+     
+    
