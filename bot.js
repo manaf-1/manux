@@ -1,4 +1,4 @@
-/* Copyright (C) 2020 JIHAD.
+/* Copyright (C) 2020 manaf-1.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 WhatsAsena - manux
@@ -258,7 +258,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '💝______```manux V2```_____💝' +
+                                await conn.sendMessage(conn.user.manaf, '💝______```manux V2```_____💝' +
                                     '\n\n*🙍 ' + error + '*\n'
                                     , MessageType.text);
                             }
